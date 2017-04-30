@@ -1,0 +1,14 @@
+tasks done :
+
+start trip:
+learn how to get location from browser
+have client send server his location then log the location
+have the server broadcast the loc to all the other users connected
+
+end trip:
+remove all markers then, have client send server end trip event
+have server notify all other clients that the trip ended
+have an event at client side remove all the markers
+
+tasks to do:
+there should be an event listener to whether the destination is equal to the current location then this function is to be called then
